@@ -1,0 +1,26 @@
+{
+  "name": "three-npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack-dev-server --mode development",
+    "format": "prettier --write '**/*.js'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cannon-es": "^0.15.1",
+    "cannon-es-debugger": "0.0.4",
+    "three": "^0.122.0",
+    "threex": "^1.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.4",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
